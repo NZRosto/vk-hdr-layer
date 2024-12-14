@@ -1,11 +1,11 @@
-Name:           vk-hdr-layer-plasma6
+Name:           vk-hdr-layer-gnome47
 Version:        main
 Release:        %autorelease
-Summary:     Vulkan layer for HDR on Plasma 6.0
+Summary:     Vulkan layer for HDR on Gnome 47
 
 License:        MIT
-URL:            https://github.com/Zamundaaa/VK_hdr_layer
-Source:         https://github.com/Zamundaaa/VK_hdr_layer/archive/refs/heads/main.tar.gz
+URL:            https://github.com/swick/VK_hdr_layer
+Source:         https://github.com/swick/VK_hdr_layer/archive/refs/heads/main.tar.gz
 
 BuildRequires:  meson >= 0.54.0
 BuildRequires:  ninja-build
@@ -17,11 +17,9 @@ BuildRequires:  pkgconfig(wayland-scanner)
 BuildRequires:  pkgconfig(vkroots)
 
 %description
-Simple package of Zamundaa's VK_hdr_layer, used for experimental HDR on Plasma 6.
+Simple package of Swick's VK_hdr_layer, used for experimental HDR on Gnome 47.
 
-See https://zamundaaa.github.io/wayland/2023/12/18/update-on-hdr-and-colormanagement-in-plasma.html for other instructions.
-
-I'm running this on Fedora Kinoite 40, so good luck on anything else.
+Probably broken, just experimenting at the moment
 
 %prep
 %setup -n VK_hdr_layer-%version
